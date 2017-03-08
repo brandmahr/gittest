@@ -2,10 +2,14 @@
 //
 #include"stdafx.h"
 #include "myheader.h"
+#include<iostream>
+
+using namespace std;
 
 int main() 
 {
-	myheader a;
+	myheader a(2);
+	cout << a.foo() << endl;
 	while (true);
 	return 0;
 };

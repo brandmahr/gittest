@@ -4,9 +4,13 @@
 
 using namespace std;
 
-void myheader::foo() 
+int myheader::foo() 
 {	
-};
+	return 1;
+}
 myheader::myheader() {
 	cout << "string" << endl;
+}
+myheader::myheader(int i) {
+	cout << "intheader" << endl;
 }

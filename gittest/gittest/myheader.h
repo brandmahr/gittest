@@ -2,5 +2,6 @@ class myheader
 {
 public:
 	myheader();
-	void foo();
+	myheader(int a);
+	int foo();
 };
