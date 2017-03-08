@@ -1,25 +1,11 @@
 // gittest.cpp : Defines the entry point for the console application.
 //
+#include"stdafx.h"
+#include "myheader.h"
 
-#include "stdafx.h"
-#include<iostream>
-#include "myheader.cpp"
-
-using namespace std;
-
-/*class Line {
-public:
-	Line();
-};
-Line::Line(void) {
-	cout << "test" << endl;
-}*/
-
-int main()
+int main() 
 {
-	int c = 0;
-	Line stuff;
-
+	myheader a;
 	while (true);
-    return 0;
-}
+	return 0;
+};

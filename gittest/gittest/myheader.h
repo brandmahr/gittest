@@ -1,11 +1,6 @@
-#pragma once
-
-/*class test {
-	test();
-};*/
-
-
-class Line {
+class myheader
+{
 public:
-	Line();
+	myheader();
+	void foo();
 };

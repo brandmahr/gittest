@@ -1,13 +1,12 @@
-#include "myheader.h"
-#include<iostream>
 #include "stdafx.h"
+#include "myheader.h"
+#include <iostream>
 
 using namespace std;
 
-class Line {
-public:
-	Line();
+void myheader::foo() 
+{	
 };
-Line::Line(void) {
-	cout << "test" << endl;
+myheader::myheader() {
+	cout << "string" << endl;
 }
